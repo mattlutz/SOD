@@ -74,7 +74,7 @@ nav a:hover {
 }
 
 #mainLogo {
-    margin: 0 30%;
+    margin: 0;
     
 }
 
@@ -184,6 +184,28 @@ input:checked + .slider:before {
     footer {
         color: white;
     }
+    
 }
 
+/* MEDIA QUERY FOR SMALL SCREEN */
+@media screen and (max-width: 768px) {
+    
+    #allToppings {
+        margin-left: 10%;
+    }
+}
 
+/* MEDIA QUERY FOR  */
+@media screen and (orientation: landscape) and (max-height: 500px) {
+
+    #mainLogo {
+        max-height: 100px;
+        display: block;
+        margin-bottom: -35px;
+    }
+    
+    .test {
+        display: inline-block;
+    }
+    
+}
